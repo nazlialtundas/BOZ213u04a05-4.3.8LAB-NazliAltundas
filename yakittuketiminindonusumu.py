@@ -1,12 +1,12 @@
 def liters_100km_to_miles_gallon(liters):
-    gallons = liters / 3.785411784
+    gallons = liters / 3.78541
     miles = 100 * 1000 / 1609.344
     return miles / gallons
 
 
 def miles_gallon_to_liters_100km(miles):
     gallons = 100 * 1000 / 1609.344 / miles
-    liters = gallons * 3.785411784
+    liters = gallons * 3.78541
     return liters
 
 
